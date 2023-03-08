@@ -1,6 +1,6 @@
 // ================ COUPON COUNTDOWN ===============
 
-let countDate = new Date("december 1, 2022 00:00:00").getTime()
+let countDate = new Date("december 1, 2023 00:00:00").getTime()
 
 function countDown() {
     let now = new Date().getTime()
