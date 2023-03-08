@@ -128,6 +128,14 @@ body {
     transition: .3s ease;
 }
 
+.btn-yellow {
+    color: #fdbc01;
+}
+
+.btn-red {
+    color: #c23900;
+}
+
 .btn-style:hover {
     transform: scale(1.1);
 }
