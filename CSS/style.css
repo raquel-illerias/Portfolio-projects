@@ -183,6 +183,7 @@ body{
     line-height: 32px;
     letter-spacing: 0.01rem;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 .main__projects--figcaption-a{
     font-size: 1.8rem;
