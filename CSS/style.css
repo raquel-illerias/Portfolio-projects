@@ -124,6 +124,31 @@ body {
 	animation-delay: 0.8s;
 }
 
+/* === CONTACT PAGE ANIMATION ON LOAD ===*/
+
+/* Fade-in animation */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn 1.5s ease-out forwards;
+}
+
+.fade-in-delayed {
+	opacity: 0;
+	animation: fadeIn 1.5s ease-out forwards;
+	animation-delay: 0.5s;
+}
+
 /* ============= HEADER ============== */
 
 .header {
