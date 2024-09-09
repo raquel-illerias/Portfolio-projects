@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-	const bodyElement = document.body;
-	setTimeout(() => {
-		bodyElement.classList.add('fade-in-visible');
-	}, 100);
+	const elements = document.querySelectorAll('.slide-in');
+
+	elements.forEach((el, index) => {
+		setTimeout(() => {
+			el.classList.add('slide-in-visible');
+		}, index * 200);
+	});
 });
