@@ -32,7 +32,7 @@ body {
 }
 /* Lato 300 400 700 */
 
-/* === TRIGGER PAGE ANIMATION ON LOAD ===*/
+/* === LANDING PAGE ANIMATION ON LOAD ===*/
 
 .slide-in {
 	opacity: 0;
@@ -59,6 +59,40 @@ body {
 
 .stagger4 {
 	transition-delay: 0.8s;
+}
+
+/* === PROJECTS PAGE ANIMATION ON LOAD ===*/
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.main__projects--figure {
+	opacity: 0;
+	animation: fadeIn 0.5s ease-in forwards;
+}
+
+.main__projects--figure:nth-child(1) {
+	animation-delay: 0.3s;
+}
+
+.main__projects--figure:nth-child(2) {
+	animation-delay: 0.6s;
+}
+
+.main__projects--figure:nth-child(3) {
+	animation-delay: 0.9s;
+}
+
+.main__projects--figure:nth-child(4) {
+	animation-delay: 1.2s;
 }
 
 /* ============= HEADER ============== */
