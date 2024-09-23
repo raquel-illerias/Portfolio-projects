@@ -457,11 +457,9 @@ body {
 }
 .main__contact--div {
 	width: 100%;
-	/* background-color: #f8f6fd; */
 	margin: 1rem 0;
 	padding: 0 15px;
 	border-radius: 10px;
-	/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -478,16 +476,24 @@ body {
 .main__contact--wrapper__anchor {
 	display: inline-flex;
 }
-.main__contact--wrapper__arrow {
+.main__contact--wrapper__anchor {
 	transition: transform 0.3s ease;
 }
-.main__contact--wrapper__anchor:hover .main__contact--wrapper__arrow {
+.main__contact--wrapper__anchor:hover {
 	transform: translate(10px, 0);
 }
 .main__contact--wrapper p {
 	font-size: 16px;
 	color: black;
 	padding-left: 15px;
+	font-weight: 600;
+}
+.main__contact--anchor__span {
+	text-decoration: underline;
+	font-weight: normal;
+}
+.main__contact--wrapper__span {
+	font-weight: normal;
 }
 .main__contact--wrapper-svg {
 	width: 23px;
